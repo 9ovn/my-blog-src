@@ -27,7 +27,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.TOKEN }}
-          external_repository: 9ovn/9ovn.github.io.git
+          external_repository: 9ovn/9ovn.github.io
           publish_dir: ./public
           #   keep_files: true
           user_name: govn
