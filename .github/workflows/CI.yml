@@ -26,7 +26,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.ACTION_ACCESS_TOKENS }}
+          personal_token: ${{ secrets.GITHUBACTIONS }}
           external_repository: 9ovn/9ovn.github.io
           publish_dir: ./public
           #   keep_files: true
