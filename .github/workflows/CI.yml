@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Git checkout
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v3
         with:
           submodules: recursive
-          token: ${{ secrets.TOKEN}}
+
       - name: Update theme
         # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
         run: git submodule update --init --recursive
@@ -26,7 +26,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.TOKEN }}
+          personal_token: ${{ secrets.ACTION_ACCESS_TOKENS }}
           external_repository: 9ovn/9ovn.github.io
           publish_dir: ./public
           #   keep_files: true
