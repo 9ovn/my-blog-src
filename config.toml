@@ -76,8 +76,8 @@ gitRepo = ""
 fingerprint = ""
 #  日期格式
 dateFormat = "2006-01-02"
+title = "govn"·
 # 网站标题, 用于 Open Graph 和 Twitter Cards
-title = "govn"
 # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
 description = "govn 的 tech博客"
 # 网站图片, 用于 Open Graph 和 Twitter Cards

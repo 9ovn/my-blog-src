@@ -3,7 +3,7 @@ title: "岛屿问题"
 subtitle: "leetcode中的岛屿数量"
 date: 2022-12-02T22:34:43+08:00
 author: "govn"
-tags: ["算法", "队列", “lc”]
+tags: ["算法", "队列", "leetcode"]
 draft: true
 ---
 

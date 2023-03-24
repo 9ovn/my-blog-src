@@ -3,7 +3,7 @@ title: "如何构建博客"
 subtitle: "使用HUGO+githu pages + github actions 构建自己的博客"
 date: 2022-09-27T09:27:26+08:00
 author: "govn"
-tags: ["blog", "HUGO", "github actions", "CICD"]
+tags: ["blog", "HUGO", "github actions", "CI/CD"]
 draft: true
 ---
 ![background](/blog/github-actions-hugo/githu-actions-hugo.jpg "GitHub  Actions")
